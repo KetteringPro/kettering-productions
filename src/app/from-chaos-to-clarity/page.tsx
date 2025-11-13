@@ -163,6 +163,18 @@ export default function FromChaosToClarityPage() {
               >
                 {season.description}
               </p>
+              <img
+                src={`/images/season_${season.id[1]}.jpg`}
+                alt={season.title}
+                style={{
+                  width: "100%",
+                  borderRadius: "0.5rem",
+                  marginTop: "0.5rem",
+                  marginBottom: "0.5rem",
+                  objectFit: "cover",
+                  maxHeight: "180px",
+                }}
+              />
               <p
                 style={{
                   margin: 0,
