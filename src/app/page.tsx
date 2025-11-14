@@ -99,7 +99,9 @@ export default function Home() {
               margin: "0 auto",
             }}
           >
-           A limited series based on a true story: a 52-year-old IT consultant's "just friends" situationship with a yacht-living, dog-loving entrepreneur spirals from undeniable connection to full-blown chaos—swinger parties, three states, international travel, a SWAT call resulting in her own arrest. In court, she meets the prosecutor who charges her in more ways than one... and sparks fly! Immediate, mutual, irresistible chemistry. Sharp, funny, and made for women who have lived a few lives.
+           A limited series based on a true story: a 52-year-old IT consultant's "just friends" situationship with a yacht-living, dog-loving entrepreneur spirals from undeniable connection to full-blown chaos—swinger parties, three states, international travel, a SWAT call resulting in her own arrest. In court, she meets the prosecutor who charges her in more ways than one... and sparks fly! Immediate, mutual, irresistible chemistry. 
+           <br></br>
+           <br></br><b>Sharp, funny, and made for women who have lived a few lives.</b>
           </p>
         </section>
 
