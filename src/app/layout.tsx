@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.ketteringproductions.com"),
+  metadataBase: new URL("https://ketteringproductions.com"),
   title: "From Chaos to Clarity | Kettering Productions",
   description:
     "A limited series based on a true story of yachts, swinger parties, a SWAT call, an arrest, and the prosecutor who becomes the love interest. Sharp, funny, and made for women who have lived a few lives.",
@@ -24,11 +25,11 @@ export const metadata: Metadata = {
     title: "From Chaos to Clarity | Kettering Productions",
     description:
       "True-story limited series following Roxanne Star from a two-year 'just friends' situationship to an unexpected love story with the prosecutor who walks in completely unaware of what he's about to step into.",
-    url: "/",
+    url: "https://ketteringproductions.com/",
     siteName: "Kettering Productions",
     images: [
       {
-        url: "/social-from-chaos-to-clarity.png",
+        url: "https://ketteringproductions.com/social-from-chaos-to-clarity.png",
         width: 1200,
         height: 630,
         alt: "From Chaos to Clarity – Kettering Productions",
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     title: "From Chaos to Clarity | Kettering Productions",
     description:
       "A sharp, funny true-story limited series for women who have lived a few lives.",
-    images: ["/social-from-chaos-to-clarity.png"],
+    images: ["https://ketteringproductions.com/social-from-chaos-to-clarity.png"],
   },
 };
 
@@ -52,6 +53,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-58JWF71Z2Z"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-58JWF71Z2Z');
+          `}
+        </Script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
