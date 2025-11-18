@@ -33,7 +33,7 @@ const seasons = [
     id: "S4",
     title: "S4 – Fall Chaos (Sep–Nov 2024)",
     description:
-      "Ryder Steele finally comes to Maine. A whirlwind of highs ends with an incredible Costa Rica trip that feels like calm after the storm.",
+      "Ryder Steele finally comes to Maine. A whirlwind of highs that ends with an incredible Costa Rica trip that feels like calm after the storm.",
     cliffhanger: "Cliffhanger: They’re back on top—too good to last."
   },
   {
