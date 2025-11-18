@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import CTAButtons from "./CTAButtons";
 
 export const metadata = {
   title: "Kettering Productions",
@@ -105,6 +106,9 @@ export default function Home() {
           </p>
         </section>
 
+        {/* PROMINENT CTA BUTTONS - Client Component */}
+        <CTAButtons />
+
         {/* Hero Image - bar on the water / party lifestyle */}
         <div
           style={{
@@ -127,22 +131,6 @@ export default function Home() {
             }}
           />
         </div>
-
-        {/* One-sheet link */}
-        <p style={{ marginTop: "1rem" }}>
-          <Link href="/from-chaos-to-clarity" style={{ color: "#fecdd3", textDecoration: "underline" }}>
-            View the FROM CHAOS TO CLARITY series overview
-          </Link>
-        </p>
-        <p style={{ marginTop: "0.25rem" }}>
-          <a
-            href="/From_Chaos_to_Clarity_Pitch.pdf"
-            style={{ color: "#fecdd3", textDecoration: "underline" }}
-            target="_blank"
-          >
-            View Series One-Sheet (PDF)
-          </a>
-        </p>
       </div>
 
       {/* Footer */}
