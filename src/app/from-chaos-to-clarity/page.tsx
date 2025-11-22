@@ -55,9 +55,9 @@ const seasons = [
     id: "S7",
     title: "S7 – Clarity (Oct 2025–Present)",
     description:
-      "Dating Ethan Hart, the prosecutor. Healing through humor, finally choosing respect and peace on her own terms.",
+      "Dating Ethan Hart, the prosecutor who seemed different—until he wasn't. Six weeks in, she realizes even the 'good guy' can't match her vision. She finally understands: clarity isn't finding a better man. It's choosing herself.",
     cliffhanger:
-      "Ending: She’s calm and free—while the ex still watches from the sidelines."
+      "Ending: She walks away from everyone—Ryder, Ethan, all of it. Free at last."
   }
 ];
 
