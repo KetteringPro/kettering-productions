@@ -1,10 +1,9 @@
 import React from "react";
-import Link from "next/link";
 
 export const metadata = {
   title: "From Chaos to Clarity | Kettering Productions",
   description:
-    "An eight-season dramedy based on a true story of midlife chaos, consequence, and unexpected clarity.",
+    "A seven-season dramedy based on a true story of midlife chaos, consequence, and unexpected clarity.",
 };
 
 const seasons = [
@@ -12,30 +11,30 @@ const seasons = [
     id: "S1",
     title: "S1 – How We Met (Aug–Sep 2023)",
     description:
-      "A Vanilla Ice concert leads to a yacht, a swinger party, and a meddling marina neighbor whose lies sabotage what could've been love. The chemistry is undeniable; the betrayal unforgettable.",
+      "A Vanilla Ice concert leads to a yacht, a swinger party, and a meddling marina neighbor whose lies sabotage what could’ve been love. The chemistry is undeniable; the betrayal unforgettable.",
     cliffhanger:
-      "Cliffhanger: Will Ryder Steele believe her—or the friend who wants her gone?",
+      "Cliffhanger: Will Ryder Steele believe her—or the friend who wants her gone?"
   },
   {
     id: "S2",
     title: "S2 – Hot Girl Fall/Winter (Villain Era) (Sep 2023–Mar 2024)",
     description:
       "A carousel of rebounds and a ten-day Mediterranean cruise. A serendipitous encounter gives her one last glimpse of the past.",
-    cliffhanger: "Cliffhanger: Ryder Steele calls. Will she answer?",
+    cliffhanger: "Cliffhanger: Ryder Steele calls. Will she answer?"
   },
   {
     id: "S3",
     title: "S3 – The Reconciliation (Apr–Aug 2024)",
     description:
-      "She does. They reunite, avenge the betrayal, and escape to St. Thomas. By summer's end she's in the hospital then he DJ's Labor Day pool parties, turning her from partner to handler.",
-    cliffhanger: "Cliffhanger: Will she keep choosing chaos?",
+      "She does. They reunite, avenge the betrayal, and escape to St. Thomas. By summer’s end she’s in the hospital while he DJ’s Labor Day pool parties, turning her from partner to handler.",
+    cliffhanger: "Cliffhanger: Will she keep choosing chaos?"
   },
   {
     id: "S4",
     title: "S4 – Fall Chaos (Sep–Nov 2024)",
     description:
       "Ryder Steele finally comes to Maine. A whirlwind of highs that ends with an incredible Costa Rica trip that feels like calm after the storm.",
-    cliffhanger: "Cliffhanger: They're back on top—too good to last.",
+    cliffhanger: "Cliffhanger: They’re back on top—too good to last."
   },
   {
     id: "S5",
@@ -43,32 +42,23 @@ const seasons = [
     description:
       "Thanksgiving with his family, holiday chaos, and the disastrous Cancun trip for his birthday. Their bond is crumbling.",
     cliffhanger:
-      "Cliffhanger: He refuses to go to Vegas for her birthday; everything erupts.",
+      "Cliffhanger: He refuses to go to Vegas for her birthday; everything erupts."
   },
   {
     id: "S6",
     title: "S6 – The Unraveling (May–Oct 2025)",
     description:
       "Post-breakup chaos: mystery trip to PA, SWAT call, solo Vegas spiral, arrest, hot girl summer. Then the twist—the prosecutor who charges her becomes her next love interest.",
-    cliffhanger:
-      "Cliffhanger: Court day—she meets Ethan Hart for the first time.",
+    cliffhanger: "Cliffhanger: Court day—she meets Ethan Hart for the first time."
   },
   {
     id: "S7",
-    title: "S7 – 50 Shades of the Prosecutor (Oct–Nov 2025)",
+    title: "S7 – Clarity (Oct 2025–Present)",
     description:
-      "Ethan Hart seemed like clarity—stable, successful, the 'good guy' after the storm. But behind closed doors, he crossed lines that can't be uncrossed. Now she's left comparing two very different men and realizing: chaos with consent beats 'safety' without it.",
+      "Dating Ethan Hart, the prosecutor who seemed different—until he wasn't. Six weeks in, she realizes even the 'good guy' can't match her vision. She finally understands: clarity isn't finding a better man. It's choosing herself.",
     cliffhanger:
-      "Cliffhanger: How do you recover when the safe choice was the dangerous one?",
-  },
-  {
-    id: "S8",
-    title: "S8 – Eight Days at Sea (The Finale)",
-    description:
-      "A cruise becomes a floating pressure cooker of unresolved grief and emotional truth. Through flashbacks, Roxy processes her brother's death, her complicated relationship with her mother, and twenty years of patterns. Christmas texts from exes confirm what she already knows.",
-    cliffhanger:
-      "Ending: \"Men being men. The pattern never breaks. But I did. Single life for me. Empire for my family.\"",
-  },
+      "Ending: She walks away from everyone—Ryder, Ethan, all of it. Free at last."
+  }
 ];
 
 export default function FromChaosToClarityPage() {
@@ -111,59 +101,10 @@ export default function FromChaosToClarityPage() {
             color: "#d1d5db",
           }}
         >
-          A limited series based on a true story of a two-year "just friends"
+          A limited series based on a true story of a two-year “just friends”
           situationship that spirals from yachts and swinger parties to a SWAT
-          call and an unexpected love story with the prosecutor who walks
-          in—completely unaware of what he's about to get himself into.
+          call and an unexpected love story with the prosecutor who walks in—completely unaware of what he’s about to get himself into.
         </p>
-
-        {/* CTA Buttons */}
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "1rem",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <Link
-            href="/pilot-script"
-            style={{
-              display: "inline-block",
-              padding: "0.75rem 1.5rem",
-              backgroundColor: "#fecdd3",
-              color: "#020817",
-              fontWeight: 600,
-              fontSize: "0.85rem",
-              letterSpacing: "0.05em",
-              textTransform: "uppercase",
-              textDecoration: "none",
-              borderRadius: "0.5rem",
-              transition: "all 0.2s ease",
-            }}
-          >
-            Read the Pilot Script
-          </Link>
-          <Link
-            href="/request-access"
-            style={{
-              display: "inline-block",
-              padding: "0.75rem 1.5rem",
-              backgroundColor: "transparent",
-              color: "#fecdd3",
-              fontWeight: 600,
-              fontSize: "0.85rem",
-              letterSpacing: "0.05em",
-              textTransform: "uppercase",
-              textDecoration: "none",
-              borderRadius: "0.5rem",
-              border: "1px solid #fecdd3",
-              transition: "all 0.2s ease",
-            }}
-          >
-            Request Industry Access
-          </Link>
-        </div>
 
         {/* Season Arcs */}
         <h2
@@ -195,14 +136,8 @@ export default function FromChaosToClarityPage() {
                 padding: "1rem 1.1rem",
                 background:
                   "linear-gradient(145deg, rgba(15,23,42,0.98), rgba(9,9,11,0.98))",
-                border:
-                  season.id === "S8"
-                    ? "1px solid rgba(254,205,211,0.4)"
-                    : "1px solid rgba(148,163,253,0.16)",
-                boxShadow:
-                  season.id === "S8"
-                    ? "0 14px 32px rgba(254,205,211,0.15)"
-                    : "0 14px 32px rgba(15,23,42,0.9)",
+                border: "1px solid rgba(148,163,253,0.16)",
+                boxShadow: "0 14px 32px rgba(15,23,42,0.9)",
                 transition: "transform 0.2s ease, box-shadow 0.2s ease",
               }}
             >
@@ -228,25 +163,23 @@ export default function FromChaosToClarityPage() {
               >
                 {season.description}
               </p>
-              {(
-                <img
-                  src={`/images/season_${season.id[1]}.jpg`}
-                  alt={season.title}
-                  style={{
-                    width: "100%",
-                    borderRadius: "0.5rem",
-                    marginTop: "0.5rem",
-                    marginBottom: "0.5rem",
-                    objectFit: "cover",
-                    maxHeight: "180px",
-                  }}
-                />
-              )}
+              <img
+                src={`/images/season_${season.id[1]}.jpg`}
+                alt={season.title}
+                style={{
+                  width: "100%",
+                  borderRadius: "0.5rem",
+                  marginTop: "0.5rem",
+                  marginBottom: "0.5rem",
+                  objectFit: "cover",
+                  maxHeight: "180px",
+                }}
+              />
               <p
                 style={{
                   margin: 0,
                   fontSize: "0.8rem",
-                  color: season.id === "S8" ? "#fecdd3" : "#9ca3af",
+                  color: "#9ca3af",
                   fontStyle: "italic",
                 }}
               >
@@ -266,9 +199,11 @@ export default function FromChaosToClarityPage() {
             paddingTop: "0.75rem",
           }}
         >
-          © 2026 Kettering Productions LLC · All Rights Reserved · Christy
+          © 2025 Kettering Productions LLC · All Rights Reserved · Christy
           Kettering · christy@ketteringproductions.com ·{" "}
-          <span style={{ color: "#9ca3af" }}>www.ketteringproductions.com</span>
+          <span style={{ color: "#9ca3af" }}>
+            www.ketteringproductions.com
+          </span>
         </footer>
       </div>
     </main>
