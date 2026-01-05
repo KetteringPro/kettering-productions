@@ -162,7 +162,7 @@ export default function Home() {
             fontStyle: "italic",
           }}
         >
-          Industry access granted selectively due to ongoing legal sensitivity.
+         
         </p>
 
         {/* Hero Image - bar on the water / party lifestyle */}
