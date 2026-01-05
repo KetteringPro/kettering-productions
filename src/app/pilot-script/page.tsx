@@ -26,6 +26,7 @@ const VALID_PASSWORDS: Record<string, string> = {
 
 export default function PilotScriptPage() {
   const [accessCode, setAccessCode] = useState("");
+  const [validatedCode, setValidatedCode] = useState("");
   const [isAuthorized, setIsAuthorized] = useState(false);
   const [error, setError] = useState("");
   const [companyName, setCompanyName] = useState("");
@@ -35,8 +36,10 @@ export default function PilotScriptPage() {
     const params = new URLSearchParams(window.location.search);
     const accessParam = params.get("access");
     if (accessParam && VALID_PASSWORDS[accessParam.toLowerCase()]) {
+      const code = accessParam.toLowerCase();
       setIsAuthorized(true);
-      setCompanyName(VALID_PASSWORDS[accessParam.toLowerCase()]);
+      setValidatedCode(code);
+      setCompanyName(VALID_PASSWORDS[code]);
       // Log for GA tracking - the URL with access code will show in analytics
     }
   }, []);
@@ -46,6 +49,7 @@ export default function PilotScriptPage() {
     const code = accessCode.toLowerCase().trim();
     if (VALID_PASSWORDS[code]) {
       setIsAuthorized(true);
+      setValidatedCode(code);
       setCompanyName(VALID_PASSWORDS[code]);
       setError("");
       // Update URL for tracking without reload
@@ -169,6 +173,9 @@ export default function PilotScriptPage() {
     );
   }
 
+  // Build the secure PDF URL with access code
+  const securePdfUrl = `/api/script?access=${validatedCode}`;
+
   // Authorized - show script
   return (
     <main
@@ -250,12 +257,12 @@ export default function PilotScriptPage() {
             </div>
             <div>
               <p style={{ fontSize: "0.7rem", color: "#6b7280", margin: 0, textTransform: "uppercase", letterSpacing: "0.1em" }}>Copyright</p>
-              <p style={{ fontSize: "0.9rem", color: "#e5e7eb", margin: "0.25rem 0 0 0" }}>© 2025 Kettering Productions LLC</p>
+              <p style={{ fontSize: "0.9rem", color: "#e5e7eb", margin: "0.25rem 0 0 0" }}>© 2026 Kettering Productions LLC</p>
             </div>
           </div>
         </div>
 
-        {/* PDF Embed */}
+        {/* PDF Embed - now using secure API route */}
         <div
           style={{
             backgroundColor: "#0f172a",
@@ -265,7 +272,7 @@ export default function PilotScriptPage() {
           }}
         >
           <iframe
-            src="/scripts/FromChaosToClarity_S1E1_Pilot.pdf"
+            src={securePdfUrl}
             style={{
               width: "100%",
               height: "80vh",
@@ -275,11 +282,11 @@ export default function PilotScriptPage() {
           />
         </div>
 
-        {/* Download option */}
+        {/* Download option - now using secure API route */}
         <div style={{ marginTop: "1rem", textAlign: "center" }}>
           <a
-            href="/scripts/FromChaosToClarity_S1E1_Pilot.pdf"
-            download
+            href={securePdfUrl}
+            download="FromChaosToClarity_S1E1_Pilot.pdf"
             style={{
               display: "inline-block",
               padding: "0.5rem 1rem",

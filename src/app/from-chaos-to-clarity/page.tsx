@@ -10,64 +10,64 @@ export const metadata = {
 const seasons = [
   {
     id: "S1",
-    title: "S1 – How We Met (Aug–Sep 2023)",
+    title: "S1 – The Beginning<br />(Aug–Sep 2023)",
     description:
-      "A Vanilla Ice concert leads to a yacht, a swinger party, and a meddling marina neighbor whose lies sabotage what could've been love. The chemistry is undeniable; the betrayal unforgettable.",
+      "A Vanilla Ice concert leads to a yacht, a swinger party, and a meddling marina neighbor whose lies sabotage what could've been love. The chemistry is undeniable; the betrayal, unforgettable.",
     cliffhanger:
-      "Cliffhanger: Will Ryder Steele believe her—or the friend who wants her gone?",
+      "Cliffhanger: Will Ryder believe her—or the friend who wants her gone?",
   },
   {
     id: "S2",
-    title: "S2 – Hot Girl Fall/Winter (Villain Era) (Sep 2023–Mar 2024)",
+    title: "S2 – The Villain Era<br />(Sep 2023–Mar 2024)",
     description:
-      "A carousel of rebounds and a ten-day Mediterranean cruise. A serendipitous encounter gives her one last glimpse of the past.",
-    cliffhanger: "Cliffhanger: Ryder Steele calls. Will she answer?",
+      "A carousel of rebounds and a ten-day Mediterranean cruise. Social media warfare escalates: strategic blocking, like-button manipulation, story surveillance. The chaos peaks with a serendipitous encounter where fate gives her one last glimpse of the past.",
+    cliffhanger: "Cliffhanger: Ryder calls on Easter Sunday. Will she answer?",
   },
   {
     id: "S3",
-    title: "S3 – The Reconciliation (Apr–Aug 2024)",
+    title: "S3 – The Reconciliation<br />(Apr–Sep 2024)",
     description:
-      "She does. They reunite, avenge the betrayal, and escape to St. Thomas. By summer's end she's in the hospital then he DJ's Labor Day pool parties, turning her from partner to handler.",
+      "She does. They reunite, avenge the Season 1 betrayal (phone heists, marina neighbor confrontation: \"IT WAS ME\"), and escape to St. Thomas. But by summer's end she's hospitalized with a kidney infection, then he's DJ'ing Labor Day pool parties—turning her from partner to handler.",
     cliffhanger: "Cliffhanger: Will she keep choosing chaos?",
   },
   {
     id: "S4",
-    title: "S4 – Fall Chaos (Sep–Nov 2024)",
+    title: "S4 – The Domestic Season<br />(Oct 2024–Jan 2025)",
     description:
-      "Ryder Steele finally comes to Maine. A whirlwind of highs that ends with an incredible Costa Rica trip that feels like calm after the storm.",
-    cliffhanger: "Cliffhanger: They're back on top—too good to last.",
+      "Costa Rica adventure. Matching smart homes across two states. He hangs curtains, replaces every doorknob—building a life while refusing to call her his girlfriend. The winter of domestic bliss becomes his undoing: too easy, too comfortable, too REAL.",
+    cliffhanger: "Cliffhanger: They're living like they're married. Too good to last.",
   },
   {
     id: "S5",
-    title: "S5 – Winter Through Cancun (Nov 2024–May 2025)",
+    title: "S5 – The Unraveling<br />(Dec 2024–May 2025)",
     description:
-      "Thanksgiving with his family, holiday chaos, and the disastrous Cancun trip for his birthday. Their bond is crumbling.",
+      "Puppies trap him in NH—he can't travel anymore. Other women appear. The manipulation tactics escalate. Cancun disaster for his birthday—water thrown in his face at dinner. Vegas for her birthday? Suddenly up for debate.",
     cliffhanger:
-      "Cliffhanger: He refuses to go to Vegas for her birthday; everything erupts.",
+      "Cliffhanger: Will he go?",
   },
   {
     id: "S6",
-    title: "S6 – The Unraveling (May–Oct 2025)",
+    title: "S6 – The Breakdown<br />(May–Oct 2025)",
     description:
-      "Post-breakup chaos: mystery trip to PA, SWAT call, solo Vegas spiral, arrest, hot girl summer. Then the twist—the prosecutor who charges her becomes her next love interest.",
+      "Post-breakup chaos: strategic social media revenge, a SWAT team to his house, solo Vegas spiral, arrest warrant, hot girl summer. And then the twist—the prosecutor who charges her becomes her next love interest.",
     cliffhanger:
-      "Cliffhanger: Court day—she meets Ethan Hart for the first time.",
+      "Cliffhanger: She meets him for the first time. He's hot AF.",
   },
   {
     id: "S7",
-    title: "S7 – 50 Shades of the Prosecutor (Oct–Nov 2025)",
+    title: "S7 – The New Beginning<br />(Oct–Nov 2025)",
     description:
-      "Ethan Hart seemed like clarity—stable, successful, the 'good guy' after the storm. But behind closed doors, he crossed lines that can't be uncrossed. Now she's left comparing two very different men and realizing: chaos with consent beats 'safety' without it.",
+      "Dating the prosecutor seemed like clarity—stable, successful, wildly transparent. But behind closed doors, he crossed lines that can't be uncrossed. She finally understands: chaos with consent beats \"safety\" without it. No single person has all the pieces.",
     cliffhanger:
       "Cliffhanger: How do you recover when the safe choice was the dangerous one?",
   },
   {
     id: "S8",
-    title: "S8 – Eight Days at Sea (The Finale)",
+    title: "S8 – The Empire<br />(The Finale)",
     description:
-      "A cruise becomes a floating pressure cooker of unresolved grief and emotional truth. Through flashbacks, Roxy processes her brother's death, her complicated relationship with her mother, and twenty years of patterns. Christmas texts from exes confirm what she already knows.",
+      "The season opens with the SAME WORDS as the Pilot—full circle. A cruise becomes a floating carousel of flashbacks that define Roxy as who she is today. She shares stories of her mother's failures, childhood trauma, and her brother's death. THE TWIST: Roxy doesn't end up with the guy. She ends up with the EMPIRE. Her technology business scales. And everyone from the chaos? They all become users, vendors, and revenue inside the system she builds.",
     cliffhanger:
-      "Ending: \"Men being men. The pattern never breaks. But I did. Single life for me. Empire for my family.\"",
+      "Ending: Despite the chaos, Roxy lands on top. She always does.",
   },
 ];
 
@@ -111,10 +111,7 @@ export default function FromChaosToClarityPage() {
             color: "#d1d5db",
           }}
         >
-          A limited series based on a true story of a two-year "just friends"
-          situationship that spirals from yachts and swinger parties to a SWAT
-          call and an unexpected love story with the prosecutor who walks
-          in—completely unaware of what he's about to get himself into.
+          Building connection through FaceTime. Story views as surveillance. Leaving someone on unread as a power move. An eight-season series based on a true story of a two-year "just friends" situationship—from the yacht where it started to the swinger parties for entertainment to the SWAT team that ended it. And an empire built from the wreckage.
         </p>
 
         {/* CTA Buttons */}
@@ -215,9 +212,8 @@ export default function FromChaosToClarityPage() {
                   color: "#fecdd3",
                   margin: 0,
                 }}
-              >
-                {season.title}
-              </h3>
+                dangerouslySetInnerHTML={{ __html: season.title }}
+              />
               <p
                 style={{
                   marginTop: "0.45rem",

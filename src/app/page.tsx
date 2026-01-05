@@ -73,7 +73,7 @@ export default function Home() {
         {/* Title + Logline (most important, above image) */}
         <section
           style={{
-            maxWidth: "700px",
+            maxWidth: "750px",
             marginBottom: "1.5rem",
             textAlign: "center",
           }}
@@ -85,24 +85,52 @@ export default function Home() {
               color: "#fecdd3",
               letterSpacing: "0.12em",
               textTransform: "uppercase",
-              marginBottom: "0.75rem",
+              marginBottom: "1rem",
               textShadow: "0 2px 8px rgba(0,0,0,0.8)",
             }}
           >
             From Chaos to Clarity
           </h2>
+          
+          {/* Tech Hook - Larger, statement piece */}
           <p
             style={{
-              fontSize: "clamp(0.9rem, 2.4vw, 1.05rem)",
+              fontSize: "clamp(1.1rem, 2.8vw, 1.35rem)",
+              lineHeight: 1.6,
+              color: "#e5e7eb",
+              maxWidth: "700px",
+              margin: "0 auto 1.25rem auto",
+              fontWeight: 500,
+            }}
+          >
+            Building connection through FaceTime. Story views as surveillance. Leaving someone on unread as a power move.
+          </p>
+          
+          {/* Premise */}
+          <p
+            style={{
+              fontSize: "clamp(1rem, 2.5vw, 1.2rem)",
+              lineHeight: 1.7,
+              color: "#d1d5db",
+              maxWidth: "720px",
+              margin: "0 auto 1.25rem auto",
+            }}
+          >
+            An eight-season series based on a true story of a two-year "just friends" situationship—from the yacht where it started to the swinger parties for entertainment to the SWAT team that ended it. And an empire built from the wreckage.
+          </p>
+          
+          {/* Tagline */}
+          <p
+            style={{
+              fontSize: "clamp(1rem, 2.5vw, 1.2rem)",
               lineHeight: 1.7,
               color: "#d1d5db",
               maxWidth: "700px",
               margin: "0 auto",
+              fontWeight: 600,
             }}
           >
-           A limited series based on a true story: a 52-year-old IT consultant's "just friends" situationship with a yacht-living, dog-loving entrepreneur spirals from undeniable connection to full-blown chaos—swinger parties, three states, international travel, a SWAT call resulting in her own arrest. In court, she meets the prosecutor who charges her in more ways than one... and sparks fly! Immediate, mutual, irresistible chemistry. 
-           <br></br>
-           <br></br><b>Sharp, funny, and made for women who have lived a few lives.</b>
+            Sharp, funny, and made for women who have lived a few lives.
           </p>
         </section>
 
@@ -143,7 +171,7 @@ export default function Home() {
           lineHeight: 1.6,
         }}
       >
-        © 2025 <span style={{ color: "#fecdd3" }}>Kettering Productions LLC</span> · All Rights Reserved
+        © 2026 <span style={{ color: "#fecdd3" }}>Kettering Productions LLC</span> · All Rights Reserved
         <br />
         <a
           href="mailto:info@ketteringproductions.com"
