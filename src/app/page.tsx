@@ -85,12 +85,27 @@ export default function Home() {
               color: "#fecdd3",
               letterSpacing: "0.12em",
               textTransform: "uppercase",
-              marginBottom: "1rem",
+              marginBottom: "0.75rem",
               textShadow: "0 2px 8px rgba(0,0,0,0.8)",
             }}
           >
             From Chaos to Clarity
           </h2>
+          
+          {/* INTERRUPT LINE - Pattern breaker */}
+          <p
+            style={{
+              fontSize: "clamp(0.95rem, 2.4vw, 1.1rem)",
+              lineHeight: 1.6,
+              color: "#fecdd3",
+              maxWidth: "700px",
+              margin: "0 auto 1.5rem auto",
+              fontStyle: "italic",
+              fontWeight: 500,
+            }}
+          >
+            Everything below actually happened. Every escalation is documented.
+          </p>
           
           {/* Tech Hook - Larger, statement piece */}
           <p
@@ -136,6 +151,19 @@ export default function Home() {
 
         {/* PROMINENT CTA BUTTONS - Client Component */}
         <CTAButtons />
+        
+        {/* Legal sensitivity note */}
+        <p
+          style={{
+            fontSize: "clamp(0.7rem, 1.6vw, 0.8rem)",
+            color: "#6b7280",
+            marginTop: "0.75rem",
+            marginBottom: "1.25rem",
+            fontStyle: "italic",
+          }}
+        >
+          Industry access granted selectively due to ongoing legal sensitivity.
+        </p>
 
         {/* Hero Image - bar on the water / party lifestyle */}
         <div
