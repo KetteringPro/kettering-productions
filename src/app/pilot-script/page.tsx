@@ -216,7 +216,7 @@ export default function PilotScriptPage() {
                 marginBottom: "0.25rem",
               }}
             >
-              From Chaos to Clarity
+              It'll Be Fine
             </h1>
             <p style={{ fontSize: "0.9rem", color: "#9ca3af", margin: 0 }}>
               Pilot Episode: &quot;The Night We Met&quot; (Ice Ice Baby)
